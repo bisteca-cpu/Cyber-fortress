@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSWINDOW001C.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_furnace_rc/c-519_2961_-71"
+	}
+}

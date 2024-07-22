@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/PROPS/METALDUCT001A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_tidal_v4/c6592_0_88"
+	}
+}

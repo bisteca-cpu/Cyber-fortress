@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/cp_tidal_v4/water/water_well_3968_-4352_-52.vmt"
+	"insert"
+	{
+		"$waterdepth"		"29"
+	}
+}

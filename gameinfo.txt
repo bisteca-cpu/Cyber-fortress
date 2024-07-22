@@ -1,0 +1,48 @@
+// Made with XBLAH's Modding tool.
+// Download it at https://xblah.dev/modding-tool
+
+gameinfo
+{
+	game	"Cyber Fortress"
+	gamelogo	"1"
+	type	"multiplayer_only"
+	icon	"resource/icon"
+	developer	"Cyber Fortress Dev Team"
+	developer_url	"http:"
+	nomodels	"1"
+	nohimodel	"1"
+	nocrosshair	"0"
+	gamedata	"tf2c.fgd"
+	hidden_maps
+	{
+		test_speakers	"1"
+		test_hardware	"1"
+	}
+	instancepath	"maps/instances/"
+	advcrosshair	"1"
+	supportsvr	"1"
+	filesystem
+	{
+		steamappid	"243750"
+		searchpaths
+		{
+			game+mod	"|gameinfo_path|custom/*"
+			game+mod+mod_write+default_write_path	"|gameinfo_path|."
+			gamebin	"|gameinfo_path|bin"
+			game_lv	"hl2/hl2_lv.vpk"
+			game	"|all_source_engine_paths|hl2/hl2_english.vpk"
+			game	"|all_source_engine_paths|hl2/hl2_pak.vpk"
+			game	"|all_source_engine_paths|hl2/hl2_textures.vpk"
+			game	"|all_source_engine_paths|hl2/hl2_sound_vo_english.vpk"
+			game	"|all_source_engine_paths|hl2/hl2_sound_misc.vpk"
+			game	"|all_source_engine_paths|hl2/hl2_misc.vpk"
+			platform	"|all_source_engine_paths|platform/platform_misc.vpk"
+			game+mod	"sourcetest/sourcetest_pak.vpk"
+			game	"|all_source_engine_paths|hl2"
+			platform	"|all_source_engine_paths|platform"
+			game	"|all_source_engine_paths|sourcetest"
+			game+download	"|gameinfo_path|download/"
+		}
+	}
+	manual	""
+}

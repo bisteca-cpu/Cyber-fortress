@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSWINDOW002A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_tidal_v4/c-3008_96_128"
+	}
+}

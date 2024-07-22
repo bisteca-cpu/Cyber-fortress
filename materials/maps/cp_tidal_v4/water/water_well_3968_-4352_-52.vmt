@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/WATER/WATER_WELL.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/cp_tidal_v4/c3968_-4352_-52"
+		"Proxies"
+		{
+		}
+	}
+}

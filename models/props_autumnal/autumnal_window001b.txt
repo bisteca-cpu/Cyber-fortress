@@ -1,0 +1,14 @@
+$modelname	"props_autumnal/autumnal_window001b.mdl"
+$body mybody	"autumnal_window001b.smd"
+$staticprop
+$surfaceprop	wood
+$cdmaterials	"autumnal/props"
+$texturegroup "Skins"
+{
+	{ "maplewoodbeam001b" "maplewoodbeam001a" }
+	{ "maplewoodbeam001c" "maplewoodbeam001a" }
+}
+
+$sequence idle	"autumnal_window001b.smd" // no animation wanted, so re-using the reference mesh
+
+$collisionmodel	"autumnal_window001b.smd"
